@@ -1,0 +1,62 @@
+.list-card-container {
+  height: auto;
+  width: auto;
+  font-family: roboto;
+  display: flex;
+  flex-direction: row;
+}
+
+.date-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.time-card {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.history-info-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-left: 6%;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  padding: 2px;
+  padding-right: 10px;
+}
+
+.title-card {
+  color: #475569;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.url-card {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-right: 10px;
+}
+
+.btn-card {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

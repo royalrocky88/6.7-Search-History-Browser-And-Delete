@@ -1,0 +1,83 @@
+.bg-container {
+  margin: 0px;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+}
+
+.nav-bar {
+  background-color: #3367d6;
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  font-family: roboto;
+}
+
+.logo-card-container {
+  margin-right: 20%;
+}
+
+.h-img {
+  height: 20%;
+  width: 150px;
+}
+
+.search-input-container {
+  display: flex;
+  height: 60%;
+  width: 80%;
+}
+
+.search-card {
+  background-color: #2850a7;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  border: 1px solid #6697ff;
+}
+
+.input-card {
+  border: 1px solid #6697ff;
+  background-color: #2850a7;
+  outline: none;
+  font-size: 25px;
+  padding-left: 2%;
+  width: 60%;
+  color: #ffffff;
+}
+
+.history-container {
+  box-shadow: 0px 0px 5px 5px;
+  margin: 3%;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.blank-card {
+  box-sizing: border-box;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blank-history {
+  color: #475569;
+  font-size: 40px;
+  font-weight: bolder;
+}
